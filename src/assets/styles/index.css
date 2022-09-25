@@ -1,0 +1,116 @@
+html {
+  --primary-color: #a80000;
+  --secondary-color: #750707;
+  --primary-font: 'SFProRegular';
+}
+
+.error-message-generic p {
+  color: var(--primary-color) !important;
+  word-break: break-word;
+  white-space: break-spaces;
+}
+
+.background-color-change {
+  background-color: "#F4F4F9";
+}
+
+.filter-color > #dropdown-custom-components{
+  color: #5C53F7;
+}
+
+#dropdown-custom-components{
+  cursor: pointer;
+}
+
+.filter-item-color:hover {
+  background-color: #D8D6FD;
+  color: #5C53F7;
+} 
+
+.break-word {
+  word-break: break-word;
+}
+
+.no-border {
+  border: none !important;
+}
+
+.max-width-100 {
+  max-width: 100% !important;
+}
+
+.no-data {
+  color: var(--red-color);
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.no-data-button {
+  padding: 15px 25px;
+  background: var(--red-color);
+  color: white !important;
+  border-radius: 5px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  border-bottom: 1px solid;
+}
+
+.login-form-css {
+  max-width: 480px;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.field-wrapper {
+  width: 100%;
+}
+
+.field-wrapper.input {
+  padding: 0px 0px 16px 0;
+  border-bottom: none;
+  position: relative;
+}
+
+.field-wrapper.input:focus {
+  border: 1px solid #000;
+}
+
+.field-wrapper label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #3b3f5c;
+  margin-bottom: 8px;
+}
+
+.field-wrapper svg {
+  position: absolute;
+  left: 12px;
+  color: #888ea8;
+  fill: rgb(0 23 55 / 30%);
+  width: 20px;
+  height: 20px;
+  top: 9px;
+}
+
+.field-wrapper input {
+  vertical-align: middle;
+  border-radius: 6px;
+  min-width: 50px;
+  width: 100%;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+  color: #3b3f5c;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 35px 5px 46px;
+}
+
+.background-Color{
+  background-color: #F4EEEE;
+}
